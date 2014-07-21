@@ -7,30 +7,27 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
-
     <title>Handcrafted Construction</title>
-
-    <!-- Bootstrap core CSS -->
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="./index_caro_files/ie-emulation-modes-warning.js"></script>
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./index_caro_files/ie10-viewport-bug-workaround.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Custom styles for this template -->
     <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
   <style type="text/css"></style><style id="holderjs-style" type="text/css"></style></head>
-<!-- NAVBAR
-================================================== -->
+@-ms-viewport       { width: device-width; }
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement('style')
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      '@-ms-viewport{width:auto!important}'
+    )
+  )
+  document.querySelector('head').appendChild(msViewportStyle)
+}
   <body>
     <div class="navbar-wrapper">
       <div class="container">

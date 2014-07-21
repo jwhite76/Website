@@ -7,6 +7,10 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
+  font-family: 'Quicksand' , sans-serif;
+  font-family: 'News Cycle' , sans-serif;
+  font-family: 'Josefin Sans' , sans-serif;
+  font-family: 'Josefin Slab' , serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
